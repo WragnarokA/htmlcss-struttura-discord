@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    max-height: 920px;
+    background-color: #ADD8E6;
+    color: white;
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+  
+}
+
+
+/* logo link  */
+
+.flexLogo{
+    width: 1200px;
+    min-height: 70px;
+    background-color: #daa520;
+    display: flex;
+    margin: 30px auto 15px auto;
+
+
+}
+
+.logo{
+    width: calc(100% / 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    width: calc((100% / 5) * 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login{
+    width: calc(100% / 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexTitolo{
+    width: 100%;
+    height: 790px;
+    background-color: #00008b;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+   
+  
+}
+
+.titolo{
+    width: 910px;
+    height: 620px;
+    background-color: #ee82ee;
+    display: flex;
+    align-content: center;
+
+
+    
+}
