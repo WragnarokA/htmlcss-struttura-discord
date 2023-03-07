@@ -129,3 +129,73 @@ header{
 }
 
 
+
+/****** footer  **********/
+
+
+footer{
+    max-width: 1200;
+    min-height: 740px;
+    background-color: #23272a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.boxSelection{
+    max-width: 1200;
+    min-height: 630px;
+    padding-top: 10px;
+    margin-bottom: 40;
+    display: flex;
+    justify-content: center;
+   
+  
+}
+
+.boxRS{
+    width: 400px;
+    height: 580px;
+    background-color: #f08080;
+
+}
+
+.boxS{
+    width: 200px;
+    height: 580px;
+    background-color: #20b2aa;
+}
+    
+.boxSPiccola{
+    width: 1200;
+    height: 80px;
+   
+    background-color: #7fffd4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fineLogo{
+    width: 70px;
+    height: 40px;
+    background-color: #20b2aa;
+    display: flex;
+    align-items: center;
+}
+
+
+.bottone{
+    width: 90px;
+    height: 40px;
+    background-color: #20b2aa;
+    display: flex;
+    align-items: center;
+}
+
+   
+  
+
+
+
+
