@@ -10,7 +10,7 @@ header{
     color: white;
     display: flex;
     justify-content: center;
-   flex-direction: column;
+    flex-direction: column;
   
 }
 
@@ -19,10 +19,10 @@ header{
 
 .flexLogo{
     width: 1200px;
-    min-height: 70px;
+    min-height: 40px;
     background-color: #daa520;
     display: flex;
-    margin: 30px auto 15px auto;
+    margin: 20px auto 10px auto;
 
 
 }
@@ -51,24 +51,81 @@ header{
 
 .flexTitolo{
     width: 100%;
-    height: 790px;
+    min-height: 500px;
     background-color: #00008b;
-    margin-top: 15px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+  
+   
+    
    
   
 }
 
 .titolo{
     width: 910px;
-    height: 620px;
+    height: 400px;
     background-color: #ee82ee;
     display: flex;
-    align-content: center;
-
-
-    
+   
 }
+
+
+
+
+/* sections body  */
+
+
+.sectionW{
+
+    min-height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+
+.sectionG{
+
+    min-height: 600px;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionGrande{
+    min-height: 1000px;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.boxG{
+    width: 720px;
+    height: 500px;
+    background-color: #1e90ff;
+}
+
+.boxP{
+    width: 360px;
+    height: 500px;
+    background-color: #ffc0cb;
+
+}
+
+.boxgreen{
+    width: 1200px;
+    height: 900px;
+    background-color: #228b22;
+
+}
+
+
